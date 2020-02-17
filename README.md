@@ -1,14 +1,17 @@
 # Payroll-Management
-Payroll Management System to Add, Display, Modify, Delete payroll records 
+A Java Application to Add, Display, Modify, Delete payroll records using Netbean software
 
-MySQL Commands
-1. Create database payroll
-2. Use payroll
-3. Create table payroll1 (Empno int(5) primary key,Name varchar(20),DOB date,DOJ date,Designation varchar(20),Salary decimal(10,2),Leaves_in_month int(2) check(Leaves_in_month <30),Ratings int(2) check(Ratings <10));
-4. Create table todolist (Event varchar(20) not null, Date date not null, Time varchar(10));
+### MySQL Commands <br >
+`Create database payroll`<br>
 
-Login for the Application
-Username - Mahesh
-Password - army
+`Use payroll`<br>
+
+`Create table payroll1 (Empno int(5) primary key,Name varchar(20),DOB date,DOJ date,Designation varchar(20),Salary decimal(10,2),Leaves_in_month int(2) check(Leaves_in_month <30),Ratings int(2) check(Ratings <10));`<br>
+
+`Create table todolist (Event varchar(20) not null, Date date not null, Time varchar(10));`<br>
+
+##### Login for the Application <br>
+Username - Mahesh <br>
+Password - army <br>
 
 Statup page is index.java
